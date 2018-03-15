@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "npm run server:dev:hmr",
-    "server:dev:hmr": "http-server",
-    "server:prod": "http-server dist --cors",
+    "server": "http-server dist --cors",
     "start": "npm run server"
   },
   "repository": {
